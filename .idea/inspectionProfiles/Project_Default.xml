@@ -5,6 +5,8 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="raspapp.libraries.sensor.instance.RPi" />
+          <option value="numpy" />
+          <option value="raspapp.libraries.sensor.hx711.RPi" />
         </list>
       </option>
     </inspection_tool>
