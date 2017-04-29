@@ -5,7 +5,7 @@ from raspapp import views
 
 urlpatterns = [
 
-    url(r'test/', views.Test)
+    url(r'test/', views.Test.as_view())
 ]
 
 urlpatterns = format_suffix_patterns(urlpatterns)

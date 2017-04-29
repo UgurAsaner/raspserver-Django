@@ -1,14 +1,13 @@
-from django.shortcuts import render
 from rest_framework.response import Response
-
-from raspapp.cronscripts import functions
 from rest_framework.views import APIView
+
+from raspapp.cronjobs import functions
 
 
 class Test(APIView):
 
-    def get(self):
+    def get(self, request):
 
-        return Response('hi')
+        return Response(functions.send_data())
 
 
