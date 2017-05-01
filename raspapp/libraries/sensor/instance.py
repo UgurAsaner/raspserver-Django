@@ -1,7 +1,7 @@
 import RPi.GPIO as GPIO
 import time
 import sys
-from .hx711 import HX711
+from hx711 import HX711
 
 
 def clean_GPIOs():
@@ -25,12 +25,14 @@ def setup_scale(data_pin, clock_pin):
 def do_scale(data_pin, clock_pin, num_of_measurements):
 
     # Declaration of fundamental variables.
-
+    scale = setup_scale(data_pin, clock_pin)
+    return scale.get_weight(1)
+"""
     measurements = num_of_measurements
     estimated_exceptions = int(num_of_measurements / 3)
     exceptions = 0
     values = []
-    scale = setup_scale(data_pin, clock_pin)
+    
 
     # Capturing weight information in appropriate format.
 
@@ -56,3 +58,4 @@ def do_scale(data_pin, clock_pin, num_of_measurements):
     result = sum(values) / (measurements - exceptions)
 
     return result
+"""
