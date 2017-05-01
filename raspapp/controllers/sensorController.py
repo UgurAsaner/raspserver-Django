@@ -1,10 +1,10 @@
 from raspapp.libraries.sensor import instance
 from raspapp.models import Pins
 
-FOOD_SENSOR_DATA_PIN = Pins.objects.filter(name='food_sensor_data').get().number
-FOOD_SENSOR_CLOCK_PIN = Pins.objects.filter(name='food_sensor_clock').get().number
-WATER_SENSOR_DATA_PIN = Pins.objects.filter(name='water_sensor_data').get().number
-WATER_SENSOR_CLOCK_PIN = Pins.objects.filter(name='water_sensor_clock').get().number
+FOOD_SENSOR_DATA_PIN = Pins.objects.get(name='food_sensor_data').number
+FOOD_SENSOR_CLOCK_PIN = Pins.objects.get(name='food_sensor_clock').number
+WATER_SENSOR_DATA_PIN = Pins.objects.get(name='water_sensor_data').number
+WATER_SENSOR_CLOCK_PIN = Pins.objects.get(name='water_sensor_clock').number
 
 
 def get_food_amount():
