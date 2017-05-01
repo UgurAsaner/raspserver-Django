@@ -26,7 +26,7 @@ def do_scale(data_pin, clock_pin, num_of_measurements):
 
     # Declaration of fundamental variables.
     scale = setup_scale(data_pin, clock_pin)
-    return scale.get_weight(1)
+    return int(-scale.get_weight(1)/5)
 """
     measurements = num_of_measurements
     estimated_exceptions = int(num_of_measurements / 3)
