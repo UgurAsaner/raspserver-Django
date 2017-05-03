@@ -1,14 +1,15 @@
 import sys
-import instance
-import time
+from instance import SensorInstance
 
-while 1:
+instance = SensorInstance()
+
+while True:
 
     try:
 
-        print 'Water:' + str(instance.do_scale(27, 17, 1))
+        print 'Water:' + str(instance.water_scale())
 
-        print 'Food:' + str(instance.do_scale(26, 19, 1))
+        print 'Food:' + str(instance.food_scale())
 
 
     except KeyboardInterrupt:

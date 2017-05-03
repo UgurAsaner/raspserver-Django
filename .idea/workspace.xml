@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a3ce5bf-9c24-4d90-975a-04d78a334ed8" name="Default" comment="">
+    <list default="true" id="1a3ce5bf-9c24-4d90-975a-04d78a334ed8" name="Default" comment="models updated">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspapp/libraries/dc/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspapp/libraries/stepper/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspapp/libraries/stepper/instance.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspapp/migrations/0002_status.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspapp/migrations/0003_delete_pins.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspapp/migrations/0004_pin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspapp/migrations/0005_value.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspapp/migrations/0006_path.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspapp/controllers/sensorController.py" afterPath="$PROJECT_DIR$/raspapp/controllers/sensorController.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspapp/cronjobs/functions.py" afterPath="$PROJECT_DIR$/raspapp/cronjobs/functions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspapp/libraries/sensor/instance.py" afterPath="$PROJECT_DIR$/raspapp/libraries/sensor/instance.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspapp/libraries/sensor/test.py" afterPath="$PROJECT_DIR$/raspapp/libraries/sensor/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspapp/models.py" afterPath="$PROJECT_DIR$/raspapp/models.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,13 +68,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hx711.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/raspapp/libraries/sensor/hx711.py">
+      <file leaf-file-name="sensorController.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/raspapp/controllers/sensorController.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/raspapp/cronjobs/functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,8 +93,8 @@
       <file leaf-file-name="instance.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/raspapp/libraries/sensor/instance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+            <state relative-caret-position="323">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -78,68 +102,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/raspapp/libraries/sensor/test.py">
+      <file leaf-file-name="instance.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/raspapp/libraries/stepper/instance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sensorController.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/raspapp/controllers/sensorController.py">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/raspapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cronclass.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/raspapp/cronjobs/cronclass.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/raspapp/cronjobs/functions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/raspapp/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/raspapp/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/raspserver/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -162,11 +152,9 @@
         <option value="$PROJECT_DIR$/raspapp/controllers/stepperController.py" />
         <option value="$PROJECT_DIR$/raspapp/controllers/DCController.py" />
         <option value="$PROJECT_DIR$/raspapp/controllers/__init__.py" />
-        <option value="$PROJECT_DIR$/raspapp/libraries/__init__.py" />
         <option value="$PROJECT_DIR$/raspapp/libraries/hx711.py" />
         <option value="$PROJECT_DIR$/raspapp/cronscripts/__init__.py" />
         <option value="$PROJECT_DIR$/raspserver/urls.py" />
-        <option value="$PROJECT_DIR$/raspapp/models.py" />
         <option value="$PROJECT_DIR$/raspapp/serializer.py" />
         <option value="$PROJECT_DIR$/raspapp/cronscripts/run.py" />
         <option value="$PROJECT_DIR$/raspapp/run.py" />
@@ -178,10 +166,17 @@
         <option value="$PROJECT_DIR$/raspapp/views.py" />
         <option value="$PROJECT_DIR$/raspapp/urls.py" />
         <option value="$PROJECT_DIR$/raspserver/settings.py" />
-        <option value="$PROJECT_DIR$/raspapp/libraries/sensor/hx711.py" />
-        <option value="$PROJECT_DIR$/raspapp/controllers/sensorController.py" />
-        <option value="$PROJECT_DIR$/raspapp/libraries/sensor/instance.py" />
         <option value="$PROJECT_DIR$/raspapp/libraries/sensor/test.py" />
+        <option value="$PROJECT_DIR$/raspapp/libraries/sensor/hx711.py" />
+        <option value="$PROJECT_DIR$/raspapp/libraries/stepper/t.py" />
+        <option value="$PROJECT_DIR$/raspapp/libraries/stepper/__init__.py" />
+        <option value="$PROJECT_DIR$/raspapp/libraries/dc/__init__.py" />
+        <option value="$PROJECT_DIR$/raspapp/libraries/stepper/instance.py" />
+        <option value="$PROJECT_DIR$/raspapp/libraries/sensor/instance.py" />
+        <option value="$PROJECT_DIR$/raspapp/models.py" />
+        <option value="$PROJECT_DIR$/raspapp/controllers/sensorController.py" />
+        <option value="$PROJECT_DIR$/raspapp/libraries/__init__.py" />
+        <option value="$PROJECT_DIR$/raspapp/cronjobs/functions.py" />
       </list>
     </option>
   </component>
@@ -192,9 +187,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="-46" />
     <option name="width" value="1366" />
-    <option name="height" value="814" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -211,6 +205,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -251,49 +246,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="raspserver-django" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="raspserver-django" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="raspapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="raspserver-django" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="raspserver-django" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="raspapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sensor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -304,6 +258,10 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/raspapp/libraries/stepper" />
+      <recent name="$PROJECT_DIR$/raspapp" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/raspapp/cronjobs" />
       <recent name="$PROJECT_DIR$" />
@@ -531,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493666879263</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="test scripts">
+      <created>1493667903397</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1493667903397</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -544,17 +509,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-46" width="1366" height="814" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16717096" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17170954" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32392272" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32376397" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34039333" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -565,7 +531,6 @@
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -583,7 +548,8 @@
     <MESSAGE value="allowed host" />
     <MESSAGE value="GPIO settings" />
     <MESSAGE value="test scripts" />
-    <option name="LAST_COMMIT_MESSAGE" value="test scripts" />
+    <MESSAGE value="models updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="models updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -592,25 +558,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/raspapp/controllers/sensorController.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspapp/cronjobs/run.py" />
-    <entry file="db://[Connection] TABLE - main.raspapp_server" />
     <entry file="db://[Connection] TABLE - main.raspapp_pins" />
     <entry file="file://$PROJECT_DIR$/raspapp/cronjobs/functions.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -623,9 +570,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -650,9 +595,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -674,9 +617,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -705,9 +646,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -736,9 +675,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -770,22 +707,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/raspapp/libraries/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3f80c71d-0df4-4ab0-8958-14c1cfcfa5f2/console.sql" />
     <entry file="dbDummy://dbtable:/5c2dbc03/3f80c71d-0df4-4ab0-8958-14c1cfcfa5f2/main.raspapp_pins" />
-    <entry file="file://$PROJECT_DIR$/raspapp/controllers/stepperController.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/raspapp/controllers/DCController.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -810,13 +733,6 @@
     </entry>
     <entry file="db://[Connection] TABLE - main.raspapp_server" />
     <entry file="db://[Connection] TABLE - main.raspapp_status" />
-    <entry file="file://$PROJECT_DIR$/raspapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/raspserver/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -825,13 +741,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/raspapp/cronjobs/run.py" />
-    <entry file="file://$PROJECT_DIR$/raspapp/cronjobs/cronclass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/raspapp/serializer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -841,7 +750,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/raspapp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="170">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -849,67 +758,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/raspserver/settings.py">
+    <entry file="file://$PROJECT_DIR$/raspapp/libraries/stepper/t" />
+    <entry file="file://$PROJECT_DIR$/raspapp/libraries/sensor/hx711.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="-1257">
+          <caret line="79" column="19" lean-forward="false" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#23#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspapp/libraries/stepper/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/raspapp/controllers/sensorController.py">
+    <entry file="file://$PROJECT_DIR$/raspapp/libraries/dc/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspapp/libraries/sensor/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspapp/controllers/stepperController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspserver/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspapp/cronjobs/cronclass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/raspapp/views.py">
+    <entry file="file://$PROJECT_DIR$/raspapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspapp/libraries/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/raspapp/cronjobs/functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="187">
+          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspapp/libraries/stepper/instance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/raspapp/libraries/sensor/instance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        <state relative-caret-position="323">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/raspapp/libraries/sensor/hx711.py">
+    <entry file="file://$PROJECT_DIR$/raspapp/controllers/sensorController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspapp/libraries/sensor/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

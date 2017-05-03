@@ -1,17 +1,14 @@
-from raspapp.libraries.sensor import instance
-from raspapp.models import Pins
+from raspapp.libraries.sensor.instance import SensorInstance
 
-FOOD_SENSOR_DATA_PIN = Pins.objects.get(name='food_sensor_data').number
-FOOD_SENSOR_CLOCK_PIN = Pins.objects.get(name='food_sensor_clock').number
-WATER_SENSOR_DATA_PIN = Pins.objects.get(name='water_sensor_data').number
-WATER_SENSOR_CLOCK_PIN = Pins.objects.get(name='water_sensor_clock').number
+
+instance = SensorInstance()
 
 
 def get_food_amount():
 
-    return instance.do_scale(FOOD_SENSOR_DATA_PIN, FOOD_SENSOR_CLOCK_PIN, 15)
+    return instance.food_scale(num_of_measurements=9)
 
 
 def get_water_amount():
 
-    return instance.do_scale(WATER_SENSOR_DATA_PIN, WATER_SENSOR_CLOCK_PIN, 15)
+    return instance.water_scale(num_of_measurements=9)
