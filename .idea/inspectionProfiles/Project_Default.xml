@@ -8,6 +8,7 @@
           <option value="numpy" />
           <option value="raspapp.libraries.sensor.hx711.RPi" />
           <option value="raspapp.libraries.stepper.t.RPi" />
+          <option value="raspapp.libraries.stepper.instance.RPi" />
         </list>
       </option>
     </inspection_tool>
