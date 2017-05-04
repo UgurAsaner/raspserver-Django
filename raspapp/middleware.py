@@ -1,6 +1,7 @@
 from rest_framework.response import Response
-from django.http.response import HttpResponseNotAllowed
-from models import Server
+from django.core.exceptions import PermissionDenied
+from raspapp.models import Server
+
 
 class Middleware(object):
 
@@ -13,7 +14,7 @@ class Middleware(object):
         allowed_ip = Server.objects.get(name='piserver').ip
 
         if request_ip is not allowed_ip:
-            raise BaseException('Not Authorized')
+            raise PermissionDenied
 
         response = self.get_response(request)
 
