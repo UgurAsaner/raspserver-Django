@@ -1,5 +1,5 @@
 
-class MiddleWare(object):
+class Middleware(object):
 
     def process_request(self, request):
 

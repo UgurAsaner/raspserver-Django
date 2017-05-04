@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a3ce5bf-9c24-4d90-975a-04d78a334ed8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspapp/libraries/stepper/instance.py" afterPath="$PROJECT_DIR$/raspapp/libraries/stepper/instance.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspapp/middleware.py" afterPath="$PROJECT_DIR$/raspapp/middleware.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspserver/settings.py" afterPath="$PROJECT_DIR$/raspserver/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,7 +55,18 @@
     <favorites_list name="raspserver-django" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/raspserver/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="51" column="36" lean-forward="false" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -82,7 +94,6 @@
         <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/raspapp/cronjobs/cronclass.py" />
         <option value="$PROJECT_DIR$/raspapp/urls.py" />
-        <option value="$PROJECT_DIR$/raspserver/settings.py" />
         <option value="$PROJECT_DIR$/raspapp/libraries/sensor/test.py" />
         <option value="$PROJECT_DIR$/raspapp/libraries/sensor/hx711.py" />
         <option value="$PROJECT_DIR$/raspapp/libraries/stepper/t.py" />
@@ -97,8 +108,9 @@
         <option value="$PROJECT_DIR$/raspapp/libraries/dc/instance.py" />
         <option value="$PROJECT_DIR$/raspapp/controllers/stepperController.py" />
         <option value="$PROJECT_DIR$/raspapp/controllers/DCController.py" />
-        <option value="$PROJECT_DIR$/raspapp/middleware.py" />
         <option value="$PROJECT_DIR$/raspapp/views.py" />
+        <option value="$PROJECT_DIR$/raspapp/middleware.py" />
+        <option value="$PROJECT_DIR$/raspserver/settings.py" />
       </list>
     </option>
   </component>
@@ -531,7 +543,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493933489768</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="database updated">
+      <created>1493934298282</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1493934298282</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -545,8 +564,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-46" width="1366" height="814" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17397882" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17397882" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -585,7 +605,8 @@
     <MESSAGE value="models updated" />
     <MESSAGE value="libraries completed" />
     <MESSAGE value="middleware added" />
-    <option name="LAST_COMMIT_MESSAGE" value="middleware added" />
+    <MESSAGE value="database updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="database updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -791,13 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/raspserver/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/raspapp/libraries/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -862,14 +876,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/raspapp/middleware.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/raspapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-57">
@@ -906,6 +912,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspapp/middleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspserver/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="51" column="36" lean-forward="false" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
           <folding />
         </state>
       </provider>
