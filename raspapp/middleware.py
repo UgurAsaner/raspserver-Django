@@ -1,5 +1,5 @@
 from rest_framework.response import Response
-
+from django.http.response import HttpResponseNotAllowed
 from models import Server
 
 class Middleware(object):
@@ -12,14 +12,10 @@ class Middleware(object):
         request_ip = request.META['REMOTE_ADDR']
         allowed_ip = Server.objects.get(name='piserver').ip
 
-        response = self.get_response(request)
-
-        print request_ip
-
         if request_ip is not allowed_ip:
-            response = Response('Unauthorized')
-
-        print allowed_ip
+            raise HttpResponseNotAllowed
+        
+        response = self.get_response(request)
 
         return response
 
