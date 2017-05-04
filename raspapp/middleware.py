@@ -13,8 +13,8 @@ class Middleware(object):
         allowed_ip = Server.objects.get(name='piserver').ip
 
         if request_ip is not allowed_ip:
-            raise HttpResponseNotAllowed
-        
+            raise BaseException('Not Authorized')
+
         response = self.get_response(request)
 
         return response
