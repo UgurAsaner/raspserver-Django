@@ -8,6 +8,7 @@ class Middleware(object):
         self.get_response = get_response
 
     def __call__(self, request):
+        response = self.get_response(request)
 
         request_ip = request.META['REMOTE_ADDR']
         allowed_ip = Server.objects.get(name='piserver').ip
@@ -15,7 +16,6 @@ class Middleware(object):
         if request_ip is not allowed_ip:
             return Response('Unauthorized')
 
-        response = self.get_response(request)
         return response
 
 
