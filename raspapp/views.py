@@ -1,7 +1,7 @@
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from raspapp.controllers import sensorController
+from raspapp.controllers import amountController, foodController, waterController
 from raspapp.cronjobs import functions
 
 
@@ -15,13 +15,19 @@ class food(APIView):
 
     def get(self, request):
 
-        return Response(sensorController.get_food_amount())
+        return Response(amountController.get_food_amount())
+
+    def post(self,request):
+
+        return Response(foodController.add_food())
 
 class water(APIView):
 
     def get(self, request):
 
-        return Response(sensorController.get_water_amount())
+        return Response(amountController.get_water_amount())
 
+    def post(self, request):
 
+        return Response(waterController.add_water())
 

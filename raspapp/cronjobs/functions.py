@@ -2,7 +2,7 @@ import requests
 import uuid
 from raspapp.models import Server, Status, Path
 from raspapp.serializer import StatusSerializer
-from raspapp.controllers import sensorController
+from raspapp.controllers import amountController
 
 
 def get_api_address():
@@ -24,11 +24,11 @@ def get_data():
         food_status = Status()
 
     water_status.type = 'water'
-    water_status.amount = sensorController.get_water_amount()
+    water_status.amount = amountController.get_water_amount()
     water_status.save()
 
     food_status.type = 'food'
-    food_status.amount = sensorController.get_food_amount()
+    food_status.amount = amountController.get_food_amount()
     food_status.save()
 
     serializer = StatusSerializer(Status.objects.all(), many=True)
