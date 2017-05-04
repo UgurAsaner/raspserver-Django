@@ -11,13 +11,13 @@ class Middleware(object):
 
         print 'middleware!!!'
 
-        response = self.get_response(request)
+        request_ip = request.META['REMOTE_ADDR']
+        allowed_ip = Server.objects.get(name='piserver').ip
 
-        # request_ip = request.META['REMOTE_ADDR']
-        # allowed_ip = Server.objects.get(name='piserver').ip
-        #
-        # if request_ip is not allowed_ip:
-        #     return Response('Unauthorized')
+        if request_ip is not allowed_ip:
+            response = Response('Unauthorized')
+        else:
+            response = self.get_response(request)
 
         return response
 
