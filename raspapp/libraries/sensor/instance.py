@@ -35,7 +35,7 @@ class SensorInstance:
         clock_pin = self.FOOD_SENSOR_CLOCK_PIN
         tare = self.FOOD_TARE
 
-        return self.do_scale(self, data_pin, clock_pin, num_of_measurements, tare)
+        return self.do_scale(data_pin, clock_pin, num_of_measurements, tare)
 
     def water_scale(self, num_of_measurements=15):
 
@@ -43,7 +43,7 @@ class SensorInstance:
         clock_pin = self.WATER_SENSOR_CLOCK_PIN
         tare = self.WATER_TARE
 
-        return self.do_scale(self, data_pin, clock_pin, num_of_measurements, tare)
+        return self.do_scale(data_pin, clock_pin, num_of_measurements, tare)
 
     def do_scale(self, data_pin, clock_pin, num_of_measurements, tare):
 
