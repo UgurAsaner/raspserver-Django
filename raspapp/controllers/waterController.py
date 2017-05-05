@@ -7,11 +7,13 @@ instance = DCInstance()
 
 def add_water():
 
-    if water_full():
-        return False
-    else:
-        instance.do_add_water()
-        return True
+    instance.do_add_water()
+    return True
+        # if water_full():
+        #     return False
+        # else:
+        #     instance.do_add_water()
+        #     return True
 
 
 def water_full():

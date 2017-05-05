@@ -72,7 +72,7 @@ class StepperInstance:
         GPIO.setup(self.coil_B_2_pin, GPIO.OUT)
         GPIO.output(self.enable_pin, 1)
 
-    def feed(self):
+    def do_add_food(self):
 
         self.move()
 

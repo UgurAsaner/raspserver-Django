@@ -7,11 +7,13 @@ instance = StepperInstance()
 
 def add_food():
 
-    if food_full():
-        return False
-    else:
-        instance.feed()
-        return True
+    instance.do_add_food()
+    return True
+    # if food_full():
+    #     return False
+    # else:
+    #     instance.feed()
+    #     return True
 
 
 def food_full():
