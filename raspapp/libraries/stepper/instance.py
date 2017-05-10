@@ -80,6 +80,6 @@ class StepperInstance:
 
         steps = self.steps
         self.set_GPIO()
-        self.forward(1 / 1000.0, int(steps))
         self.backwards(1 / 1000.0, int(steps))
+        self.forward(1 / 1000.0, int(steps))
         GPIO.cleanup()
