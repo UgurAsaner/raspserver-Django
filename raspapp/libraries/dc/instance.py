@@ -29,7 +29,7 @@ class DCInstance:
         GPIO.output(self.Motor1B, GPIO.LOW)
         GPIO.output(self.Motor1E, GPIO.HIGH)
 
-        sleep(8)
+        sleep(4)
 
 
     def pull_water(self):
