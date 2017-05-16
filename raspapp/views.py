@@ -8,10 +8,8 @@ class Test(APIView):
 
     def get(self, request):
 
-        request_ip = request.META['REMOTE_ADDR']
-        allowed_ip = Server.objects.get(name='piserver').ip
+        return Response(True)
 
-        return Response("r: "+request_ip + "\na: " + allowed_ip)
 
 class food(APIView):
 
@@ -22,6 +20,7 @@ class food(APIView):
     def post(self,request):
 
         return Response(foodController.add_food())
+
 
 class water(APIView):
 
