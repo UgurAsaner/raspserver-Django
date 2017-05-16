@@ -7,21 +7,18 @@ instance = StepperInstance()
 
 def add_food():
 
-    instance.do_add_food()
-    return True
-    # if food_full():
-    #     return False
-    # else:
-    #     instance.feed()
-    #     return True
+    food_needed = is_food_needed()
+
+    if food_needed:
+        instance.do_add_food()
+
+    return food_needed
 
 
-def food_full():
+def is_food_needed():
 
     threshold = Value.objects.get(name='food_threshold').value
     current_amount = amountController.get_food_amount()
 
-    if current_amount >= threshold:
-        return False
-    else:
-        return True
+    return current_amount < threshold
+

@@ -13,8 +13,8 @@ class Middleware(object):
         request_ip = request.META['REMOTE_ADDR']
         allowed_ip = Server.objects.get(name='piserver').ip
 
-#        if request_ip is not allowed_ip:
-#            raise PermissionDenied
+        if request_ip is not allowed_ip:
+            raise PermissionDenied
 
         response = self.get_response(request)
 

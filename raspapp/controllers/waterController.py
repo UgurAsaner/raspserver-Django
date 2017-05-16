@@ -7,21 +7,17 @@ instance = DCInstance()
 
 def add_water():
 
-    instance.do_add_water()
-    return True
-        # if water_full():
-        #     return False
-        # else:
-        #     instance.do_add_water()
-        #     return True
+    food_needed = is_water_needed()
+
+    if food_needed:
+        instance.do_add_water()
+
+    return food_needed
 
 
-def water_full():
+def is_water_needed():
 
     threshold = Value.objects.get(name='water_threshold').value
     current_amount = amountController.get_water_amount()
 
-    if current_amount >= threshold:
-        return True
-    else:
-        return False
+    return current_amount < threshold
