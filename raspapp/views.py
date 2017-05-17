@@ -8,7 +8,7 @@ class Test(APIView):
 
     def get(self, request):
 
-        return Response(True)
+        return Response()
 
 
 class food(APIView):
